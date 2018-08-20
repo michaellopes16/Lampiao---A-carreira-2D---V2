@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: eff3d61e1944952429ac3f9b57284a2a
+timeCreated: 1486434094
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpriteGeral_0
+    21300002: SpriteGeral_1
+    21300004: SpriteGeral_2
+    21300006: SpriteGeral_3
+    21300008: SpriteGeral_4
+    21300010: SpriteGeral_5
+    21300012: SpriteGeral_6
+    21300014: SpriteGeral_7
+    21300016: SpriteGeral_8
+    21300018: SpriteGeral_9
+    21300020: SpriteGeral_10
+    21300022: SpriteGeral_11
+    21300024: SpriteGeral_12
+    21300026: SpriteGeral_13
+    21300028: SpriteGeral_14
+    21300030: SpriteGeral_15
+    21300032: SpriteGeral_16
+    21300034: SpriteGeral_17
+    21300036: SpriteGeral_18
+    21300038: SpriteGeral_19
+    21300040: SpriteGeral_20
+    21300042: SpriteGeral_21
+    21300044: SpriteGeral_22
+    21300046: SpriteGeral_23
+    21300048: SpriteGeral_24
+    21300050: SpriteGeral_25
+    21300052: SpriteGeral_26
+    21300054: SpriteGeral_27
+    21300056: SpriteGeral_28
+    21300058: SpriteGeral_29
+    21300060: SpriteGeral_30
+    21300062: SpriteGeral_31
+    21300064: SpriteGeral_32
+    21300066: SpriteGeral_33
+    21300068: SpriteGeral_34
+    21300070: SpriteGeral_35
+    21300072: SpriteGeral_36
+    21300074: SpriteGeral_37
+    21300076: SpriteGeral_38
+    21300078: SpriteGeral_39
+    21300080: SpriteGeral_40
+    21300082: SpriteGeral_41
+    21300084: SpriteGeral_42
+    21300086: SpriteGeral_43
+    21300088: SpriteGeral_44
+    21300090: SpriteGeral_45
+    21300092: SpriteGeral_46
+    21300094: SpriteGeral_47
+    21300096: SpriteGeral_48
+    21300098: SpriteGeral_49
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteGeral_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 569
+        width: 88
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 569
+        width: 88
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 569
+        width: 86
+        height: 133
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 569
+        width: 81
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_4
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 569
+        width: 83
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_5
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 569
+        width: 67
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 568
+        width: 74
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_7
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 569
+        width: 71
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_8
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 569
+        width: 58
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_9
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 568
+        width: 50
+        height: 138
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_10
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 282
+        width: 55
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_11
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 425
+        width: 54
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_12
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 426
+        width: 70
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_13
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 425
+        width: 62
+        height: 143
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_14
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 426
+        width: 59
+        height: 141
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_15
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 426
+        width: 49
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_16
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 426
+        width: 49
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_17
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 425
+        width: 70
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_18
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 426
+        width: 78
+        height: 135
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_19
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 425
+        width: 78
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 284
+        width: 71
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_21
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 285
+        width: 85
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 285
+        width: 86
+        height: 130
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_23
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 285
+        width: 84
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_24
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 284
+        width: 81
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_25
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 283
+        width: 73
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_26
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 283
+        width: 65
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_27
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 286
+        width: 45
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_28
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 284
+        width: 45
+        height: 140
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 143
+        width: 68
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_30
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 142
+        width: 67
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_31
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 143
+        width: 65
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_32
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 143
+        width: 57
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_33
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 142
+        width: 105
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_34
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 143
+        width: 132
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_35
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 142
+        width: 133
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_36
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 143
+        width: 134
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_37
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 142
+        width: 50
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_38
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 142
+        width: 47
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_39
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 65
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_40
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 68
+        height: 119
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_41
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 64
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_42
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 0
+        width: 57
+        height: 137
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SpriteGeral_43
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 426
+        width: 49
+        height: 142
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

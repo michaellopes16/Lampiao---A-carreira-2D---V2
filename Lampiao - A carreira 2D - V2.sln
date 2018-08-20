@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lampiao - A carreira 2D - V2", "Assembly-CSharp.csproj", "{7B75FDB4-7CA8-8062-45E8-8C7AB75D5D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lampiao - A carreira 2D - V2", "Assembly-CSharp-Editor.csproj", "{F45FB4AC-54C2-9D2F-7BBD-1F27F09C51AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B75FDB4-7CA8-8062-45E8-8C7AB75D5D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B75FDB4-7CA8-8062-45E8-8C7AB75D5D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B75FDB4-7CA8-8062-45E8-8C7AB75D5D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B75FDB4-7CA8-8062-45E8-8C7AB75D5D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F45FB4AC-54C2-9D2F-7BBD-1F27F09C51AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45FB4AC-54C2-9D2F-7BBD-1F27F09C51AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45FB4AC-54C2-9D2F-7BBD-1F27F09C51AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45FB4AC-54C2-9D2F-7BBD-1F27F09C51AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

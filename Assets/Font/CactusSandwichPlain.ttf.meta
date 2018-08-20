@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 045036aeeab30b74e814861b3d03f93e
+timeCreated: 1486497598
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Cactus Sandwich Plain
+  fontNames:
+  - Cactus Sandwich Plain
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 78c7c6bfaa71c0c4589bd42ccd2a29c0
+timeCreated: 1487440765
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Sri Papan
+  fontNames:
+  - Sri Papan
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

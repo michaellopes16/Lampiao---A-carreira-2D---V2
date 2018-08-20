@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bbf76e69f83edea4ca2323c14e5da92a
+timeCreated: 1486497598
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Cactus Sandwich
+  fontNames:
+  - Cactus Sandwich
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
