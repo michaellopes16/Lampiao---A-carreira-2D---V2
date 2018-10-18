@@ -24,6 +24,7 @@ public class SpawnController : MonoBehaviour {
 
     bool criou;
     int indiceAux;
+	int indiceAnterior;
     public static int quantColisoes;
     private int lastPrefabIndex = 0;
     // Use this for initialization
@@ -60,14 +61,21 @@ public class SpawnController : MonoBehaviour {
         {
             if(!PLayerController.colidiuComOBonus)
                 quantColisoes = 0;
+			indiceAnterior = indicePrefab;
             indicePrefab = RamdomPrefabIndex();
-            indicesRemovidos.Add(indicePrefab);
-           // Debug.Log("Adicionou um indice: " + indicesRemovidos.Count+" -- Indice adicionado:"+indicePrefab);
-            barreiraPrefab[indicePrefab].GetComponent<MoveObjeto>().speed = velocidade;
 
-            GameObject tempPrefab = Instantiate(barreiraPrefab[indicePrefab]) as GameObject;
-            prefabsEmCena.Add(tempPrefab);
-        }
+			if (indiceAnterior == indicePrefab) {
+				Debug.Log ("Indices iguais");
+				indicePrefab += 1;
+			} 
+				indicesRemovidos.Add (indicePrefab);
+				// Debug.Log("Adicionou um indice: " + indicesRemovidos.Count+" -- Indice adicionado:"+indicePrefab);
+				barreiraPrefab [indicePrefab].GetComponent<MoveObjeto> ().speed = velocidade;
+
+				GameObject tempPrefab = Instantiate (barreiraPrefab [indicePrefab]) as GameObject;
+				prefabsEmCena.Add (tempPrefab);
+			
+		}
     }
     public void removerPrefabe()
     {
@@ -88,7 +96,7 @@ public class SpawnController : MonoBehaviour {
                         // barreiraPrefab[barreiraPrefab.Length - 1] = null;
                         // indicesRemovidos.Add(indicePrefab);
                         //tamanhoDonome--;
-                       // Debug.Log("Novo prefab da posição: " + indicePrefab + " :" + barreiraPrefab[indicePrefab].gameObject.name);
+                        Debug.Log("Novo prefab da posição: " + indicePrefab + " :" + barreiraPrefab[indicePrefab].gameObject.name);
                        // Debug.Log("Tamanho do Nome:" + tamanhoDonome);
                        
                     }
@@ -116,10 +124,10 @@ public class SpawnController : MonoBehaviour {
             if (PLayerController.difficultyLevel >= 3.0f && PLayerController.difficultyLevel < 4.0f)
             {
 
-                randomIndex = Random.Range(4, barreiraPrefab.Length - tamanhoDonome + 1);
-               
-                // randomIndex = barreiraPrefab.Length - tamanhoDonome;+
-               // Debug.Log("Entrou no Difficulty Level>3: Indice: " + randomIndex + " ---- Limite Superior:" + (barreiraPrefab.Length - tamanhoDonome + 1));
+                randomIndex = Random.Range(3, barreiraPrefab.Length - tamanhoDonome + 1);
+				//randomIndex = Random.Range(0,4);
+              //  randomIndex = barreiraPrefab.Length - tamanhoDonome;
+                Debug.Log("Entrou no Difficulty Level>3: Indice: " + randomIndex + " ---- Limite Superior:" + (barreiraPrefab.Length - tamanhoDonome + 1));
             }
             else if (PLayerController.difficultyLevel >= 4.0f)
             {
@@ -127,14 +135,16 @@ public class SpawnController : MonoBehaviour {
                 {
                     chamarDelegado = true;
                 }
-                    randomIndex = Random.Range(7, barreiraPrefab.Length - tamanhoDonome + 1);
-                // randomIndex = barreiraPrefab.Length - tamanhoDonome;+
-               // Debug.Log("Entrou no Difficulty Level>4: Indice: " + randomIndex + " ---- Limite Superior:" + (barreiraPrefab.Length - tamanhoDonome + 1));
+                randomIndex = Random.Range(10, barreiraPrefab.Length - tamanhoDonome + 1);
+				//randomIndex = Random.Range(0,4);
+				// randomIndex = barreiraPrefab.Length - tamanhoDonome;+
+                Debug.Log("Entrou no Difficulty Level>4: Indice: " + randomIndex + " ---- Limite Superior:" + (barreiraPrefab.Length - tamanhoDonome + 1));
             }
             else
             {
                 randomIndex = Random.Range(0, barreiraPrefab.Length - tamanhoDonome);
-                //Debug.Log("Entrou no Difficulty < 3 -- Indice: " + randomIndex + " ---- Limite Superior:" + (barreiraPrefab.Length - tamanhoDonome ));
+				//randomIndex = Random.Range(0,4);
+				Debug.Log("Entrou no Difficulty < 3 -- Indice: " + randomIndex + " ---- Limite Superior:" + (barreiraPrefab.Length - tamanhoDonome ));
             }
         }
           
